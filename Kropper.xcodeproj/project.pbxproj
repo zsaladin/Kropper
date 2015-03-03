@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2FA8C3D1AA615B400F8C52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C3C1AA615B400F8C52B /* AppDelegate.swift */; };
+		B2FA8C411AA615B400F8C52B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FA8C401AA615B400F8C52B /* Images.xcassets */; };
+		B2FA8C501AA615B400F8C52B /* KropperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C4F1AA615B400F8C52B /* KropperTests.swift */; };
+		B2FA8C5B1AA6164000F8C52B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C5A1AA6164000F8C52B /* ViewController.swift */; };
+		B2FA8C5E1AA6169100F8C52B /* KropBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C5D1AA6169100F8C52B /* KropBox.swift */; };
+		B2FA8C601AA616BD00F8C52B /* ImageFileDropperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C5F1AA616BD00F8C52B /* ImageFileDropperView.swift */; };
+		B2FA8C621AA616F000F8C52B /* SizeInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C611AA616F000F8C52B /* SizeInputViewController.swift */; };
+		B2FA8C6A1AA6177000F8C52B /* Executor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C681AA6177000F8C52B /* Executor.swift */; };
+		B2FA8C6B1AA6177000F8C52B /* SizeInputExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C691AA6177000F8C52B /* SizeInputExecuter.swift */; };
+		B2FA8C6D1AA617A200F8C52B /* ScaleExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C6C1AA617A200F8C52B /* ScaleExecuter.swift */; };
+		B2FA8C6F1AA617B200F8C52B /* ResizeExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C6E1AA617B200F8C52B /* ResizeExecuter.swift */; };
+		B2FA8C711AA617C400F8C52B /* KropBoxExecuter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C701AA617C400F8C52B /* KropBoxExecuter.swift */; };
+		B2FA8C731AA6180D00F8C52B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C721AA6180D00F8C52B /* Global.swift */; };
+		B2FA8C751AA6181600F8C52B /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FA8C741AA6181600F8C52B /* ImageHelper.swift */; };
+		B2FA8C781AA61ABD00F8C52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FA8C761AA61ABD00F8C52B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2FA8C4A1AA615B400F8C52B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2FA8C2F1AA615B400F8C52B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2FA8C361AA615B400F8C52B;
+			remoteInfo = Kropper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2FA8C371AA615B400F8C52B /* Kropper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kropper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FA8C3B1AA615B400F8C52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FA8C3C1AA615B400F8C52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2FA8C401AA615B400F8C52B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2FA8C491AA615B400F8C52B /* KropperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KropperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FA8C4E1AA615B400F8C52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FA8C4F1AA615B400F8C52B /* KropperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KropperTests.swift; sourceTree = "<group>"; };
+		B2FA8C5A1AA6164000F8C52B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
+		B2FA8C5D1AA6169100F8C52B /* KropBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KropBox.swift; path = Views/KropBox.swift; sourceTree = "<group>"; };
+		B2FA8C5F1AA616BD00F8C52B /* ImageFileDropperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFileDropperView.swift; sourceTree = "<group>"; };
+		B2FA8C611AA616F000F8C52B /* SizeInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SizeInputViewController.swift; path = ViewControllers/SizeInputViewController.swift; sourceTree = "<group>"; };
+		B2FA8C681AA6177000F8C52B /* Executor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Executor.swift; path = Executers/Executor.swift; sourceTree = "<group>"; };
+		B2FA8C691AA6177000F8C52B /* SizeInputExecuter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SizeInputExecuter.swift; path = Executers/SizeInputExecuter.swift; sourceTree = "<group>"; };
+		B2FA8C6C1AA617A200F8C52B /* ScaleExecuter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScaleExecuter.swift; path = Executers/ScaleExecuter.swift; sourceTree = "<group>"; };
+		B2FA8C6E1AA617B200F8C52B /* ResizeExecuter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResizeExecuter.swift; path = Executers/ResizeExecuter.swift; sourceTree = "<group>"; };
+		B2FA8C701AA617C400F8C52B /* KropBoxExecuter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KropBoxExecuter.swift; path = Executers/KropBoxExecuter.swift; sourceTree = "<group>"; };
+		B2FA8C721AA6180D00F8C52B /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		B2FA8C741AA6181600F8C52B /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		B2FA8C771AA61ABD00F8C52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2FA8C341AA615B400F8C52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FA8C461AA615B400F8C52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2FA8C2E1AA615B400F8C52B = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C391AA615B400F8C52B /* Kropper */,
+				B2FA8C4C1AA615B400F8C52B /* KropperTests */,
+				B2FA8C381AA615B400F8C52B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2FA8C381AA615B400F8C52B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C371AA615B400F8C52B /* Kropper.app */,
+				B2FA8C491AA615B400F8C52B /* KropperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2FA8C391AA615B400F8C52B /* Kropper */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C631AA6170700F8C52B /* Executers */,
+				B2FA8C5C1AA6166E00F8C52B /* Views */,
+				B2FA8C591AA6162800F8C52B /* ViewControllers */,
+				B2FA8C3C1AA615B400F8C52B /* AppDelegate.swift */,
+				B2FA8C761AA61ABD00F8C52B /* Main.storyboard */,
+				B2FA8C401AA615B400F8C52B /* Images.xcassets */,
+				B2FA8C3A1AA615B400F8C52B /* Supporting Files */,
+				B2FA8C721AA6180D00F8C52B /* Global.swift */,
+				B2FA8C741AA6181600F8C52B /* ImageHelper.swift */,
+			);
+			path = Kropper;
+			sourceTree = "<group>";
+		};
+		B2FA8C3A1AA615B400F8C52B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C3B1AA615B400F8C52B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2FA8C4C1AA615B400F8C52B /* KropperTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C4F1AA615B400F8C52B /* KropperTests.swift */,
+				B2FA8C4D1AA615B400F8C52B /* Supporting Files */,
+			);
+			path = KropperTests;
+			sourceTree = "<group>";
+		};
+		B2FA8C4D1AA615B400F8C52B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C4E1AA615B400F8C52B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2FA8C591AA6162800F8C52B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C5A1AA6164000F8C52B /* ViewController.swift */,
+				B2FA8C611AA616F000F8C52B /* SizeInputViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B2FA8C5C1AA6166E00F8C52B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C5D1AA6169100F8C52B /* KropBox.swift */,
+				B2FA8C5F1AA616BD00F8C52B /* ImageFileDropperView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B2FA8C631AA6170700F8C52B /* Executers */ = {
+			isa = PBXGroup;
+			children = (
+				B2FA8C681AA6177000F8C52B /* Executor.swift */,
+				B2FA8C691AA6177000F8C52B /* SizeInputExecuter.swift */,
+				B2FA8C6C1AA617A200F8C52B /* ScaleExecuter.swift */,
+				B2FA8C6E1AA617B200F8C52B /* ResizeExecuter.swift */,
+				B2FA8C701AA617C400F8C52B /* KropBoxExecuter.swift */,
+			);
+			name = Executers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2FA8C361AA615B400F8C52B /* Kropper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FA8C531AA615B400F8C52B /* Build configuration list for PBXNativeTarget "Kropper" */;
+			buildPhases = (
+				B2FA8C331AA615B400F8C52B /* Sources */,
+				B2FA8C341AA615B400F8C52B /* Frameworks */,
+				B2FA8C351AA615B400F8C52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kropper;
+			productName = Kropper;
+			productReference = B2FA8C371AA615B400F8C52B /* Kropper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2FA8C481AA615B400F8C52B /* KropperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FA8C561AA615B400F8C52B /* Build configuration list for PBXNativeTarget "KropperTests" */;
+			buildPhases = (
+				B2FA8C451AA615B400F8C52B /* Sources */,
+				B2FA8C461AA615B400F8C52B /* Frameworks */,
+				B2FA8C471AA615B400F8C52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2FA8C4B1AA615B400F8C52B /* PBXTargetDependency */,
+			);
+			name = KropperTests;
+			productName = KropperTests;
+			productReference = B2FA8C491AA615B400F8C52B /* KropperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2FA8C2F1AA615B400F8C52B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zsaladin;
+				TargetAttributes = {
+					B2FA8C361AA615B400F8C52B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B2FA8C481AA615B400F8C52B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B2FA8C361AA615B400F8C52B;
+					};
+				};
+			};
+			buildConfigurationList = B2FA8C321AA615B400F8C52B /* Build configuration list for PBXProject "Kropper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2FA8C2E1AA615B400F8C52B;
+			productRefGroup = B2FA8C381AA615B400F8C52B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2FA8C361AA615B400F8C52B /* Kropper */,
+				B2FA8C481AA615B400F8C52B /* KropperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2FA8C351AA615B400F8C52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FA8C411AA615B400F8C52B /* Images.xcassets in Resources */,
+				B2FA8C781AA61ABD00F8C52B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FA8C471AA615B400F8C52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2FA8C331AA615B400F8C52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FA8C711AA617C400F8C52B /* KropBoxExecuter.swift in Sources */,
+				B2FA8C5E1AA6169100F8C52B /* KropBox.swift in Sources */,
+				B2FA8C5B1AA6164000F8C52B /* ViewController.swift in Sources */,
+				B2FA8C3D1AA615B400F8C52B /* AppDelegate.swift in Sources */,
+				B2FA8C6F1AA617B200F8C52B /* ResizeExecuter.swift in Sources */,
+				B2FA8C6D1AA617A200F8C52B /* ScaleExecuter.swift in Sources */,
+				B2FA8C731AA6180D00F8C52B /* Global.swift in Sources */,
+				B2FA8C601AA616BD00F8C52B /* ImageFileDropperView.swift in Sources */,
+				B2FA8C6B1AA6177000F8C52B /* SizeInputExecuter.swift in Sources */,
+				B2FA8C6A1AA6177000F8C52B /* Executor.swift in Sources */,
+				B2FA8C621AA616F000F8C52B /* SizeInputViewController.swift in Sources */,
+				B2FA8C751AA6181600F8C52B /* ImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FA8C451AA615B400F8C52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FA8C501AA615B400F8C52B /* KropperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2FA8C4B1AA615B400F8C52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2FA8C361AA615B400F8C52B /* Kropper */;
+			targetProxy = B2FA8C4A1AA615B400F8C52B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2FA8C761AA61ABD00F8C52B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FA8C771AA61ABD00F8C52B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2FA8C511AA615B400F8C52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2FA8C521AA615B400F8C52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2FA8C541AA615B400F8C52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Kropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2FA8C551AA615B400F8C52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Kropper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2FA8C571AA615B400F8C52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KropperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kropper.app/Contents/MacOS/Kropper";
+			};
+			name = Debug;
+		};
+		B2FA8C581AA615B400F8C52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KropperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kropper.app/Contents/MacOS/Kropper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2FA8C321AA615B400F8C52B /* Build configuration list for PBXProject "Kropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FA8C511AA615B400F8C52B /* Debug */,
+				B2FA8C521AA615B400F8C52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FA8C531AA615B400F8C52B /* Build configuration list for PBXNativeTarget "Kropper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FA8C541AA615B400F8C52B /* Debug */,
+				B2FA8C551AA615B400F8C52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2FA8C561AA615B400F8C52B /* Build configuration list for PBXNativeTarget "KropperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FA8C571AA615B400F8C52B /* Debug */,
+				B2FA8C581AA615B400F8C52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2FA8C2F1AA615B400F8C52B /* Project object */;
+}
